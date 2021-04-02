@@ -20,7 +20,7 @@ const ListCategory = {
                         <tr>
                             <td>${index}</td>
                             <td>${category.name}</td>
-                            <td><img src="http://localhost:3000/api/category/photo/${category._id}" alt="" style="width: 100%;"></td>
+                            <td><img src="http://localhost:4000/api/category/photo/${category._id}" alt="" style="width: 100%;"></td>
                             <td>
                                 <a href="/#/editcategory/${category._id}" class="btn btn-primary">Update</a>
                                 <button class="btn btn-danger btn-remove" data-id="${category._id}">Remove</button>

@@ -21,7 +21,7 @@ const ListProduct = {
               
               <td>${product.name}</td>
               <td>${product.price}</td>
-              <td><img src="http://localhost:3000/api/product/photo/${product._id}" style=width:100%></td>
+              <td><img src="http://localhost:4000/api/product/photo/${product._id}" style=width:100%></td>
               <td>
                     <a href="/#/editproduct/${product._id}" class="btn btn-primary">Update</a>
                     <button class="btn btn-danger btn-remove" data-id="${product._id}">Remove</button>

@@ -11,7 +11,7 @@ const ProductDetail = {
         return /*html*/`
             <div class="row">
                 <div class="col-6">
-                    <img src="http://localhost:3000/api/product/photo/${product._id}" style="width:100%">
+                    <img src="http://localhost:4000/api/product/photo/${product._id}" style="width:100%">
                 </div>
                 <div class="col-6">
                     <h1>${product.name}</h1>

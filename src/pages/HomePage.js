@@ -17,7 +17,7 @@ const HomePage = {
             <a href="/#/product/${product._id}" class="btn btn-primary">${product.name}</a>
             <div class="price">
               <strong class="card-text" style="color:red">${product.price}</strong>
-              <img src="http://localhost:3000/api/product/photo/${product._id}" alt="" >
+              <img src="http://localhost:4000/api/product/photo/${product._id}" alt="" >
             </div>
               
               <div class="d-flex justify-content-between align-items-center">

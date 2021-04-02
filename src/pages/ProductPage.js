@@ -18,7 +18,7 @@ const ProductPage = {
                 
             <div class="col-4">
                 <div class="card" >
-                    <img src="http://localhost:3000/api/product/photo/${product._id}" class="card-img-top" alt="...">
+                    <img src="http://localhost:4000/api/product/photo/${product._id}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${product.name}</h5>
                         <div class="price">
