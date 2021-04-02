@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": "7",
+      "categoryId": 1,
+      "name": "iPhone 12 Pro Max",
+      "image": "https://cdn.shopify.com/s/files/1/0259/1735/products/iphone-12-pro-max-clear-matt-skins_2048x.jpg?v=1602835228",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-022920-042903.jpg",
+      "price": "36.00.000đ",
+      "price1": "39.900.000đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/DQgPImbgiKg",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "8",
+      "categoryId": 1,
+      "name": "iPhone 12 Pro Max",
+      "image": "https://cdn.shopify.com/s/files/1/0259/1735/products/iphone-12-pro-max-textured-matt-black-skins_2048x.jpg?v=1602835228",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-022920-042903.jpg",
+      "price": "36.00.000đ",
+      "price1": "39.900.000đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/DQgPImbgiKg",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "9",
+      "categoryId": 1,
+      "name": "iPhone 12 Pro Max",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71fJ-gmBZtL._SL1500_.jpg",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-022920-042903.jpg",
+      "price": "36.00.000đ",
+      "price1": "39.900.000đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/DQgPImbgiKg",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "10",
+      "categoryId": 1,
+      "name": "iPhone 12 Pro Max",
+      "image": "https://cdn.shopify.com/s/files/1/0259/1735/products/iphone-12-pro-max-dragon-red-gloss-skins_2048x.jpg?v=1602835228",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-022920-042903.jpg",
+      "price": "36.00.000đ",
+      "price1": "39.900.000đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/DQgPImbgiKg",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "11",
+      "categoryId": 2,
+      "name": "iPhone 11 Pro Max",
+      "image": "https://cdn.shopify.com/s/files/1/0259/1735/products/iphone_11_pro_textured_matt_light_blue_skins_2048x.jpg?v=1599559494",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/210644/iphone-11-128gb-1-2.jpg",
+      "price": "19.900.900đ",
+      "price1": "22.900.900đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/d1SGTpH5SNA",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "12",
+      "categoryId": 2,
+      "name": "iPhone 11 Pro Max",
+      "image": "https://cdn.shopify.com/s/files/1/0259/1735/products/iphone_11_pro_textured_matt_red_skins_2048x.jpg?v=1610452431",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/210644/iphone-11-128gb-1-2.jpg",
+      "price": "19.900.900đ",
+      "price1": "22.900.900đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/d1SGTpH5SNA",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "13",
+      "categoryId": 2,
+      "name": "iPhone 11 Pro Max",
+      "image": "http://hoanganhshop.vn/upload/sanpham/pm-gold-15983706181.jpg",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/210644/iphone-11-128gb-1-2.jpg",
+      "price": "19.900.900đ",
+      "price1": "22.900.900đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/d1SGTpH5SNA",
+      "status": false,
+      "quantity": 36
+    },
+    {
+      "id": "14",
+      "categoryId": 2,
+      "name": "iPhone 11 Pro Max1",
+      "image": "https://cdn.shopify.com/s/files/1/0259/1735/products/iphone_11_pro_clear_matt_skins_2048x.jpg?v=1599559494",
+      "image2": "https://cdn.tgdd.vn/Products/Images/42/210644/iphone-11-128gb-1-2.jpg",
+      "price": "19.900.900đ",
+      "price1": "22.900.900đ",
+      "description": "Hiệu năng cao vượt mọi thử thách",
+      "description2": "Một sự cải tiến được coi là nguồn lõi và là trái tim hay nguồn sức mạnh để có thể vận hành một chiếc điện thoại siêu phẩm 2020 đó là chipset A14 Bionic được sản xuất trên tiến trình 5 nm cho phép tạo ra 11.8 tỷ bóng bán dẫn mang đến hiệu năng vô cùng mạnh mẽ.iOS 14 cũng được cài sẵn trên máy và mang nhiều điểm cải tiến giúp máy được tối ưu tốt hơn nâng cao hiệu năng.Tính năng App Library cho phép gộp tự động các ứng dụng có sự tương đồng với nhau về chức năng như giải trí, mạng xã hội, game,... trông thật tiện lợi.",
+      "description3": "iPhone 12 Pro Max làm người dùng nhớ lại những ký ức xưa cũ đi vào huyền thoại. Nét thiết kế với khung viền vuông vức, mạnh mẽ từng làm nên tên tuổi của iPhone 4, iPhone 5 giờ đây quay trở lại.Khung viền iPhone 12 Pro Max được hoàn thiện bằng thép không gỉ, sáng bóng giúp tăng độ cứng cáp và sang trọng cho máy.",
+      "video": "https://www.youtube.com/embed/d1SGTpH5SNA",
+      "status": false,
+      "quantity": 36
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "iPhone12"
+    },
+    {
+      "id": "2",
+      "name": "iphone11"
+    }
+  ]
+}
