@@ -3,7 +3,8 @@ import { reRender, $ } from '../utils.js';
 const ListProduct = {
     async render() {
         const { data: products } = await ProductApi.getAll();
-        return /*html*/`
+    return /*html*/`
+        <div>Tổng ${products.data.length}</div>
             <table class="table table-striped table-sm">
           <thead>
             <tr>
@@ -32,7 +33,8 @@ const ListProduct = {
         </table>
         `
     },
-    async afterRender() {
+  async afterRender() {
+      
         const btns = $('#list-products .btn');
         btns.forEach(btn => {
             const id = btn.dataset.id;

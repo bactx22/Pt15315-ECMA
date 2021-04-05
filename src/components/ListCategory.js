@@ -4,7 +4,8 @@ import { reRender, $ } from '../utils.js';
 const ListCategory = {
     async render() {
         const { data: categories } = await CategoryAPI.getAll();
-        return /*html*/`
+    return /*html*/`
+        <div>Tổng ${categories.data.length}</div>
         <table class="table table-striped table-sm">
           <thead>
             <tr>

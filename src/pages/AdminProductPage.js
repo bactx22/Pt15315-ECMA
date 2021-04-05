@@ -1,8 +1,10 @@
+import ProductApi from "../api/ProductApi.js";
 import ListProduct from "../components/ListProduct.js";
 import SidebarMenu from "../components/SidebarMenu.js";
 
 const AdminProductPage = {
-    async render() {
+  async render() {
+    const { data: products } = await ProductApi.getAll();
         return /*html*/`
         <div class="row">
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
@@ -25,6 +27,7 @@ const AdminProductPage = {
       </div>
 
       <a href="/#/addproduct" class="btn btn-primary">New</a>
+      
       <div class="table-responsive" id="list-products">
         ${await ListProduct.render()}
       </div>

@@ -8,12 +8,12 @@ const CategoryPage = {
         const { data : categories } = await CategoryAPI.getAll();
         const { data: products } = await ProductApi.getAll();
         // console.log(products);
-        const result = products.filter(product => product.categoryId == id).map(product => {
+        const result = products.data.filter(product => product.category == id).map(product => {
             return /*html*/`
             
                 <div class="col-4">
                 <div class="card" >
-                    <img src="${product.image}" class="card-img-top" alt="...">
+                    <img src="http://localhost:4000/api/product/photo/${product._id}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${product.name}</h5>
                         <div class="price">
@@ -30,9 +30,9 @@ const CategoryPage = {
         
             <div class="row">
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-                ${categories.map(category => {
+                ${categories.data.map(category => {
                 return /*html*/`
-                            <a class="nav-link active" class="p-2 text-dark" href="/#/category/${category.id}">${category.name}</a>   
+                            <a class="nav-link active" class="p-2 text-dark" href="/#/category/${category._id}">${category.name}</a>   
                         `
                         }).join("")
                     } 

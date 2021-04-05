@@ -28,7 +28,7 @@ const Dashboard = {
             </tr>
         `
             }).join("");
-            return `
+            return /*html*/`
             <h1>!!!!</h1>
             <div>Tổng ${products.length}</div>
             <td><a href="/#/" class="btn btn-primary">Thêm</a></td>

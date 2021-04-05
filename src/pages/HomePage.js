@@ -11,8 +11,6 @@ const HomePage = {
             
         <div class="col" style="margin-bottom:20px">
           <div class="card shadow-sm">
-          
-
             <div class="card-body">
             <a href="/#/product/${product._id}" class="btn btn-primary">${product.name}</a>
             <div class="price">

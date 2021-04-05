@@ -20,10 +20,9 @@ const ProductPage = {
                 <div class="card" >
                     <img src="http://localhost:4000/api/product/photo/${product._id}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">${product.name}</h5>
+                        <a href="/#/product/${product._id}" style="text-decoration: none;"><h5 class="card-title">${product.name}</h5></a>
                         <div class="price">
                             <strong class="card-text" style="color:red">${product.price}</strong>
-                            <span style="color:black;text-decoration: line-through;">${product.price1}</span>
                         </div>
                         <a href="/#/product/${product._id}" class="btn btn-primary">Chi tiết</a>
                     </div>
@@ -38,7 +37,7 @@ const ProductPage = {
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 ${(categories.data).map(category => {
                 return /*html*/`
-                            <a class="nav-link active" class="p-2 text-dark" href="/#/category/${category.id}">${category.name}</a>   
+                            <a class="nav-link active" class="p-2 text-dark" href="/#/category/${category._id}">${category.name}</a>   
                         `
             }).join("")
                     } 
