@@ -1,75 +1,32 @@
-// import data from '../data.js';
-import ProductApi from '../api/ProductApi'
-import axios from "axios";
+import SidebarMenu from "../components/SidebarMenu.js";
 
-// console.log(data.products);
 const Dashboard = {
   async render() {
-        try { 
-          const { data: products } = await ProductApi.getAll();
-          
-        console.log(products.length);
-            // const response = await axios('https://5e79b4b817314d00161333da.mockapi.io/products');
-            // const products = await response.data;
-          const result = products.map(product => {
-              
-                return `           
-            <tr>
-            <td>${product.id}</td>
-              <td>${product.name}</td>
-              <td><img src="${product.image}" style="width: 20%"></td>
-              <td>${product.price}</td>
-              <td>${product.status}</td>
-              <td>${product.quantity}</td>
-              <td>
-                <a href="/#/" class="btn btn-primary">xoá</a>
-              </td>
-              <td><a href="/#/" class="btn btn-primary">sửa</a></td>
-            </tr>
-        `
-            }).join("");
-            return /*html*/`
-            <h1>!!!!</h1>
-            <div>Tổng ${products.length}</div>
-            <td><a href="/#/" class="btn btn-primary">Thêm</a></td>
-            <div class="table-responsive">
-        <table class="table table-striped table-sm">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Name</th>
-              <th>Image</th>
-              <th>Price</th>
-              <th>Status</th>
-              <th>Quantity</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            ${result}
-            
-          </tbody>
-        </table>
-        `
-        } catch (error) {
-            console.log(error); 
-        }
-        // const { products } = data;
-        // const result = products.map(product => {
-        //     return `
-        //     <div class="col-4">
-        //         <div class="card" >
-        //             <img src="${product.image}" class="card-img-top" alt="...">
-        //             <div class="card-body">
-        //                 <h5 class="card-title">${product.name}</h5>
-        //                 <p class="card-text">${product.description}</p>
-        //                 <a href="/#/products/${product.id}" class="btn btn-primary">Chi tiết</a>
-        //             </div>
-        //             </div>
-        //     </div>
-        // `
-        // }).join("");
-        
-    }
+    return /*html*/`
+            <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      ${SidebarMenu.render()}
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1>Dashboard</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group me-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+            <span data-feather="calendar"></span>
+            This week
+          </button>
+        </div>
+      </div>
+
+      
+    </main>
+  </div>
+    `
+  }
 }
 export default Dashboard;

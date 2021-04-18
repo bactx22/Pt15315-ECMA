@@ -31,19 +31,20 @@ const ProductPage = {
         `
             }).join("");
             
-            return /*html*/`
-            <h1>ProductPage</h1>
+            return /*html*/`            
             <div class="row">
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 ${(categories.data).map(category => {
                 return /*html*/`
-                            <a class="nav-link active" class="p-2 text-dark" href="/#/category/${category._id}">${category.name}</a>   
+                            <a class="nav-link active" class="p-2 text-dark" href="/#/category/${category._id}">${category.name}</a>
+                            
                         `
             }).join("")
                     } 
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4"> 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 ">
+                
                     ${result}
                 </div>
             </main>

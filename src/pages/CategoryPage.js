@@ -18,7 +18,6 @@ const CategoryPage = {
                         <h5 class="card-title">${product.name}</h5>
                         <div class="price">
                             <strong class="card-text" style="color:red">${product.price}</strong>
-                            <span style="color:black;text-decoration: line-through;">${product.price1}</span>
                         </div>
                         <a href="/#/products/${product.id}" class="btn btn-primary">Chi tiết</a>
                     </div>

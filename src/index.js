@@ -17,7 +17,11 @@ import Profile from './pages/Profile.js';
 import AdminCategory from './pages/AdminCategory.js';
 import AddCategory from './pages/AddCategory.js';
 import CategoryEdit from './pages/CategoryEdit.js';
-
+import Signin from './pages/Signin.js';
+import Signup from './pages/Signup.js';
+import Banner from './components/Banner.js';
+import Dashboard from './pages/Dashboard.js';
+import Account from './pages/Account'
 // const $ = selector => {
 //     let elements = document.querySelectorAll(selector);
 //     return elements.length == 1 ? elements[0] : [...elements];
@@ -37,7 +41,10 @@ const routes = {
     '/new': New,
     '/contact' :Contact,
     '/profile': Profile,
-    
+    '/signin': Signin,
+    '/signup': Signup,
+    '/dashboard': Dashboard,
+    '/account': Account
 }
 const  router = async () => {
     const { resource, id } = parseRequestUrl();
@@ -45,6 +52,7 @@ const  router = async () => {
     console.log(parseUrl);
     const pages = routes[parseUrl] ? routes[parseUrl] : Error404Page;
     $('#header').innerHTML = await Header.render();
+    $('#banner').innerHTML = await Banner.render();
     $('#footer').innerHTML = await Footer.render();
     $('#main-content').innerHTML = await pages.render(); 
     await pages.afterRender();

@@ -1,108 +1,67 @@
 const Footer = {
     render() {
         return /*html*/`
-            <footer class=" text-center text-lg-start">
-  <!-- Grid container -->
-  <div class="container p-4" >
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h6 class="text-uppercase">Shop and Learn</h6>
-
-        <ul class="list-unstyled mb-0" >
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Mac</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">iPad</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">iPhone</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Watch</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">TV</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Music</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h6 class="text-uppercase mb-0">Services</h6>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Apple Music</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Apple TV+</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Apple Fitness+</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Apple News+</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h6 class="text-uppercase">Apple Store</h6>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Find a Store</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Shop Online</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Genius Bar</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Today at Apple</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h6 class="text-uppercase mb-0">For Business</h6>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Apple and Business</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Shop for Business</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark" style="text-decoration: none">Apple and Education</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  
-  <!-- Copyright -->
-</footer>
+        
+           <section class="footer bg-img" style="background-image: url('');">
+        <div class="container"><hr>
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>
+                        AC_Shop
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quas harum? Atque eius
+                        quaerat fuga sint molestiae illo corrupti vitae voluptatibus. Dicta rerum est delectus
+                        perspiciatis nemo nihil autem! Doloremque?</p>
+                    <br>
+                    <p>Email: example@mail.com</p>
+                    <p>Phone: +00 123 456 789</p>
+                    <p>Website: freshfood.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>
+                        About us
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#">
+                            Chefs
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Menu
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Testimonials
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Lorem ipsum
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Subscribe & media
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aspernatur doloremque rerum nam
+                        ullam obcaecati error asperiores temporibus quo eum eaque sed odio vitae accusantium, dolorem
+                        nihil molestiae deserunt maxime!</p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email">
+                        <button>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         `
     }
 }
