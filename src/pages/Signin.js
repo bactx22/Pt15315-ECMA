@@ -12,7 +12,7 @@ const Signin = {
                 </div>
                 <div class="input-group1 ">
                     <i class='bx bxs-lock-alt'></i>
-                    <input type="text"  id="password" placeholder="Password"  style="">
+                    <input type="password"  id="password" placeholder="Password"  style="">
                 </div>
                 <button type="submit">
 					Sign in

@@ -7,15 +7,15 @@ const Signup = {
             <form id="form-signup">
                 <div class="input-group1">
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Username">
+							<input type="text" id="user-name" placeholder="Username">
 						</div>
                 <div class="input-group1 ">
                    <i class='bx bx-mail-send'></i>
-                    <input type="text"  id="email" placeholder="Email"  >
+                    <input type="text"  id="user-email" placeholder="Email"  >
                 </div>
                 <div class="input-group1 ">
                     <i class='bx bxs-lock-alt'></i>
-                    <input type="text"  id="password" placeholder="Password"  style="">
+                    <input type="password"  id="user-password" placeholder="Password"  style="">
                 </div>
                 <button type="submit" style="margin-bottom:10px">
 					Sign up
@@ -32,17 +32,26 @@ const Signup = {
             </form>
         `
     },
-     afterRender() {
-        $('#form-signup').addEventListener('submit', e => {
+    async afterRender() {
+        $('#form-signup').addEventListener('submit',async (e) => {
             e.preventDefault();
-            const user = {
+            var user = $('#user-name')
+            var email = $('#email');
+            var password = $('#password')
+            
+            if (email.value === "" || password.value === "" || user.value ==="") {
+                alert("Not true")
+            } else {
+                const user = {
                 name: $('#user-name').value,
                 email: $('#user-email').value,
                 password: $('#user-password').value
             }
             AuthApi.signup(user);
             alert("Bạn đăng ký thành công")
-            window.location.hash = '/'
+            window.location.hash = '/signin'
+            }
+            
       })
     }
 }

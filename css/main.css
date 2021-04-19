@@ -77,7 +77,9 @@ h1 {
   background-color: var(--primary-color);
   border-radius: 1rem;
 }
-
+.right-menu {
+  display: flex;
+}
 .cart-btn {
   width: 3rem;
   height: 3rem;

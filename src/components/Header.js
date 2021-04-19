@@ -45,6 +45,9 @@ const Header = {
                          <div class="cart-btn">
                              <i class='bx bx-cart-alt'></i>
                          </div>
+                         <div class="cart-btn">
+                             <a href="/#/account"><i class="bi bi-person-circle"></i></a>
+                         </div>
                      </div>
                 `
             } else {
@@ -78,12 +81,12 @@ const Header = {
                          
                          
                      </div>
-                     <div class="right-menu">
+                     <div class="right-menu" >
                          <div class="cart-btn">
                              <i class='bx bx-cart-alt'></i>
                          </div>
-                         <div>
-                             <i class="bi bi-person-circle"></i>
+                         <div class="cart-btn">
+                             <a href="/#/account"><i class="bi bi-person-circle"></i></a>
                          </div>
                      </div>
                 `
